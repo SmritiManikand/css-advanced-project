@@ -97,6 +97,10 @@ Create a simplified clone of Dribbble (https://dribbble.com/) landing page.
       <div class="project-card">
         <img src="C:/Users/user/Downloads/s15.jpg" alt="Project 15">
       </div>
+      <div class="project-card">
+        <img src="C:/Users/user/Downloads/s16.jpg" alt="Project 16">
+      </div>
+
     </div>
   </section>
 
@@ -279,4 +283,5 @@ footer {
 ## OUTPUT
 
 
+![output](https://github.com/SmritiManikand/css-advanced-project/assets/113674204/a1a14470-10f1-412d-8928-72702375901d)
 
