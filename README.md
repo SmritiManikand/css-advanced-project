@@ -108,6 +108,173 @@ Create a simplified clone of Dribbble (https://dribbble.com/) landing page.
 ```
 
 
+## styles.css
+
+```
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ea4c89;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin-left: 20px;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+.auth-search-container {
+  display: flex;
+  align-items: center;
+}
+
+.auth-buttons .btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-left: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.auth-buttons .login {
+  background: #444;
+}
+
+.auth-buttons .signup {
+  background: #ea4c89;
+}
+
+.search-bar {
+  margin-left: 10px;
+}
+
+.search-bar input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.featured-message {
+  background: #000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.featured-message p {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.featured-message .btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.learn-more {
+  background: #444;
+  color: #fff;
+}
+
+.sign-up {
+  background: #ea4c89;
+  color: #fff;
+}
+
+.projects {
+  padding: 40px 20px;
+}
+
+.projects-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.projects-header h2 {
+  font-size: 1.5rem;
+  margin-right: auto;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+}
+
+.filters span {
+  background: #e1e1e1;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+```
+
+
 
 ## OUTPUT
 
