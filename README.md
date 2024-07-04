@@ -3,6 +3,38 @@
 Create a simplified clone of Dribbble landing page.
 
 
+## ALGORITHM
+
+1. Header Section:
+
+Include a navigation bar with Dribbble's logo on the left and navigation links (Explore, Jobs, Hiring, Sign In) on the right.
+Use a high-quality background image or a solid color background that resembles Dribbble's style.
+
+2.Main Content Section:
+
+Display featured shots or designs in a grid layout. Each shot should include:
+Thumbnail image (linked to the full shot).
+Title or brief description.
+Designer's name and profile picture.
+Use hover effects (e.g., scale up, show additional information) to enhance interactivity.
+
+3.Footer Section:
+
+Include links to important pages (About, Contact, Help, Terms, Privacy).
+Social media icons (Twitter, Facebook, Instagram, LinkedIn).
+Copyright information and Dribbble's logo.
+
+4. Styling:
+
+Use Dribbble's color palette: primarily white, shades of gray, and occasional pops of vibrant colors.
+Choose a clean and modern font for headings and body text.
+Ensure spacing and alignment are consistent throughout the page.
+
+5. Responsive Design:
+
+Ensure the page is responsive, meaning it looks good and functions well on different devices.
+
+
 ## index.html
 
 ```
