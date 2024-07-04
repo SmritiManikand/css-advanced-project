@@ -1,6 +1,6 @@
 # css-advanced-project
 
-Create a simplified clone of Dribbble (https://dribbble.com/) landing page.
+Create a simplified clone of Dribbble landing page.
 
 
 ## index.html
